@@ -1,0 +1,62 @@
+{
+  "status": 0,  //接口成功还是失败
+  "message": "success", //如果出现异常，异常提示信息
+  "result": {  //返回的结果
+      "totalHoney":59, //总金额
+      "list":[  //商品列表
+      {
+      "name": "面具1",
+      "price": 19,
+      "count": 1,
+      "amount": 19,
+      "imgPic": "static/img/test.jpg",
+      "gifts": [
+        {
+          "partId":"10001",
+          "partName":"打火机"
+        },
+        {
+          "partId":"10002",
+          "partName":"火柴"
+        }
+      ]
+      },
+      {
+      "name": "面具2",
+      "price": 20,
+      "count": 1,
+      "amount": 20,
+      "imgPic": "static/img/test1.jpg",
+        "gifts": [
+          {
+            "partId":"10001",
+            "partName":"打火机"
+          },
+          {
+            "partId":"10002",
+            "partName":"火柴盒"
+          }
+        ]
+      },
+        {
+          "name": "面具3",
+
+          "price": 20,
+          "count": 1,
+          "amount": 20,
+          "imgPic": "static/img/test1.jpg",
+          "gifts": [
+            {
+              "partId":"10001",
+              "partName":"打火机"
+            },
+            {
+              "partId":"10002",
+              "partName":"火柴盒"
+            }
+          ]
+        }
+      ]
+  }
+
+}
